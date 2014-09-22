@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+ul#tabs {
+	width:230px;
+	float:left;
+  list-style-type: none;
+  margin: 0 0 30px -120px;
+  padding: 0;
+  text-align: left; 
+  font-weight:bold;}
+  ul#tabs li {
+    background-color: #32c896;
+    border-bottom: solid 5px #238b68;
+    padding: 5px 20px;
+    margin-bottom: 4px;
+    color: #333;
+    cursor: pointer; }
+    ul#tabs li:hover {
+      background-color: #238b68; }
+    ul#tabs li.active {
+      background-color: #238b68; }
+
+ul#tab {
+	width:870px;
+	height:1000px;
+	float:left;
+  list-style-type: none;
+  margin:-643px 0 0 120px;
+  padding: -250px 0 0 0; }
+  ul#tab li {
+    display: none;
+    padding: 30px;
+	height:610px;
+    border: solid 20px #003366; }
+    ul#tab li.active {
+      display: block; }
+    ul#tab li h2 {
+      font-weight: 400;
+      margin-bottom: 30px;
+      padding-bottom: 5px;
+      border-bottom: solid 5px #663300; }
+	  
+	  
+ul#tabs li#tabber1{
+	background-color:#0CF;
+	border-bottom: solid 5px #0099FF;
+}
+
+ul#tabs li#tabber2{
+	background-color:#FC0;
+	border-bottom: solid 5px #FF9900;
+}
+
+ul#tabs li#tabber3{
+	background-color:#F69;
+	border-bottom: solid 5px #FF3399;
+}
+
+ul#tabs li#tabber4{
+	background-color:#69F;
+	border-bottom: solid 5px #66F;
+}
+
+ul#tabs li#tabber5{
+	background-color:#3F6;
+	border-bottom: solid 5px #3C0;
+}
+
+ul#tabs li#tabber6{
+	background-color:#99C;
+	border-bottom: solid 5px #9966CC;
+}
+
+ul#tabs li#tabber7{
+	background-color:#9F0;
+	border-bottom: solid 5px #99CC00;
+}
+
+ul#tabs li#tabber8{
+	background-color:#999;
+	border-bottom: solid 5px #666;
+}
+
+ul#tabs li#tabber9{
+	background-color:#6CC;
+	border-bottom: solid 5px #6699CC;
+}
+
+ul#tabs li#tabber10{
+	background-color:#C6F;
+	border-bottom: solid 5px #CC33FF;
+}
+
+ul#tabs li#tabber11{
+	background-color:#3C6;
+	border-bottom: solid 5px #339966;
+}
+
+ul#tabs li#tabber12{
+	background-color:#3CC;
+	border-bottom: solid 5px #3399CC;
+}
+
+ul#tabs li#tabber13{
+	background-color:#F6C;
+	border-bottom: solid 5px #FF33CC;
+}
+
+ul#tabs li#tabber14{
+	background-color:#F90;
+	border-bottom: solid 5px #FF6600;
+}
+	  
+	  
